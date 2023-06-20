@@ -33,13 +33,20 @@ const btnReg = document.getElementById('btn-reg')
 
 btnReg.onclick = function(){
     const userReg = document.getElementById('userRegg')
-    const eMail = userRegg.email.value
-    const password = userRegg.password.value 
+    const eMail = userReg.eMail.value
+    const password = userReg.password.value 
     const logIn = {
         eMail: eMail,
         password
     }
     const logInJSON = JSON.stringify(logIn)
-    console.log(logInJSON)
+    //console.log(logInJSON)
+    fetch('http://localhost:3000').then(function(response){
+        if (response.ok){
+            return response.text()
+        }
+    }).then(function(text){
+        console.log(text)
+    })
     
 }
