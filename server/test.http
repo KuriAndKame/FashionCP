@@ -19,4 +19,4 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/api/fashionCP
-Authorization:bearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNjg2MTQ3MDgxLCJleHAiOjE2ODYzMTk4ODF9.XnVFoJ3x4EaZEaRiaIcYelR7jN1P4jf5MmvANkz3F_A
+Authorization:bearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNjg3ODA3NjgyLCJleHAiOjE2ODc5ODA0ODJ9.xqh224SIY62hi7IAjUPJLWYaKDCMZufOFEbzLVg7G2c

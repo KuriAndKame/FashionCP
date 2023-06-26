@@ -68,10 +68,10 @@ async function LoginSubmit(event) {
     }
 }
 
-/*
+
 async function renderLogIns(){
-    const token = localStorage.setItem('Token')
-    if(token){
+    const token = localStorage.getItem('Token')
+    if(token){  
         const response = await fetch (`${domain}/api/fashionCP`, {
             headers: {
                 'Authorization': token
@@ -87,4 +87,3 @@ async function renderLogIns(){
         root.innerHTML = loginPage 
     }
 }
-*/
