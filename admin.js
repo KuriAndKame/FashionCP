@@ -68,7 +68,7 @@ async function LoginSubmit(event) {
     }
 }
 
-
+/*
 async function renderLogIns(){
     const token = localStorage.getItem('Token')
     if(token){  
@@ -87,3 +87,4 @@ async function renderLogIns(){
         root.innerHTML = loginPage 
     }
 }
+*/
